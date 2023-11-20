@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calc JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <header></header> -->
+
+    <main>
+        <div class="calcContainer">
+
+            <h1>JS Age Calculator</h1>
+
+            <label for="#" class="num1">Enter Your Date of Birth: </label>
+            <div class="dateContainer">
+                <input type="number" name="date" id="date" placeholder="dd">
+                <input type="number" name="date" id="month" placeholder="mm">
+                <input type="number" name="date" id="year" placeholder="yyyy">
+            </div>
+
+            <button class="resultbtn" id="resultbtn" onclick="ageCalculate()">Calculate</button>
+
+            <label for="#" class="result">Your Current Age is: </label>
+            <input type="text" name="result" id="resultShow" readonly>
+
+        </div>
+    </main>
+
+    <!-- <footer></footer> -->
+
+    <script src="script.js"></script>
+</body>
+</html>
