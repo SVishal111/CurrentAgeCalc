@@ -4,8 +4,8 @@ function ageCalculate() {
     month = parseInt(document.getElementById("month").value);
     year = parseInt(document.getElementById("year").value);
     
-    currDate = 20;
-    currMonth = 11;
+    currDate = 31;
+    currMonth = 12;
     currYear = 2023;
 
     dateOld = currDate - date;
